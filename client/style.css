@@ -1,0 +1,75 @@
+h1{
+    text-align: center;
+    color: black;
+}
+
+body{
+    background-image: url(https://wallpaperaccess.com/full/2629775.jpg); /*image can change, just a placeholder*/
+    background-size: cover;
+}
+
+label{
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+input, select{
+    height: 20px;
+}
+
+h3{
+    font-size: 18pt;
+}
+
+option{
+    font-weight: bold;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgb(73, 73, 246);;
+    border-color: rgb(73, 73, 246);
+    color: white;
+}
+
+button:hover{
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+.input-group{
+    padding: 5px;
+}
+
+#info{
+    background-color: rgba(241, 236, 236, 0.368);
+    height: 900px;
+    text-align: center;
+    padding-top: 2px;
+}
+
+#output{
+    border: 30px;
+    border-color: black;
+    width: 350px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+.long-lat{
+    display: flex;
+    margin-left: 35%;
+}
+
+#longitude, #latitude{
+    width: 100px
+}
+
+.ending{
+    margin-left: 3px;
+}

@@ -1,0 +1,138 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Predicting Housing prices</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <h1>Predicting Housing Prices</h1>
+        
+        <div id="info">
+            <h3>Please enter housing infomation</h3>
+            <div class="inputs">
+                <div class="input-group">
+                    <label for="bed-selection">Number of beds:</label>
+                    <select name="bed-selection" id="bed-selection" class="options">
+                        <option disabled selected>Select Beds...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9+</option>
+                    </select>
+                </div>
+                
+                <div class="input-group">
+                    <label for="bath-selection">Number of baths:</label>
+                    <select name="bath-selection" id="bath-selection" class="options">
+                        <option disabled selected>Select Baths...</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9+</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="square-footage">Square Footage:</label>
+                    <input id="square-footage" type="number" placeholder="ex. 2000" min="0"><label class="ending">sqft</label>
+                </div>
+
+                <div class="input-group">
+                    <label for="lot-size">Lot Size:</label>
+                    <input id="lot-size" type="number" min="0" placeholder="ex. 0.50"><label class="ending">acres</label>
+                </div>
+
+                <div class="input-group">
+                    <label for="address">Address:</label>
+                    <input id="address" type="text" placeholder="ex. 123 Sunset Boulevard">
+                </div>
+
+                <div class="input-group">
+                    <label for="city-selection">City:</label>
+                    <input id="city" type="text" placeholder="ex. Beverely Hills">
+                </div>
+               
+                <div class="input-group">
+                    <label for="state-selection">State:</label>
+                    <select name="state-selection" id="state-selection" class="options">
+                        <option disabled selected>Select State...</option>
+                        <option disabled>Alabama</option>
+                        <option disabled>Alaska</option>
+                        <option disabled>Arizona</option>
+                        <option disabled>Arkansas</option>
+                        <option value="California">California</option>
+                        <option disabled>Colorado</option>
+                        <option disabled>Connecticut</option>
+                        <option disabled>Delaware</option>
+                        <option disabled>Florida</option>
+                        <option disabled>Georgis</option>
+                        <option disabled>Hawaii</option>
+                        <option disabled>Idaho</option>
+                        <option disabled>Illinois</option>
+                        <option disabled>Indiana</option>
+                        <option disabled>Iowa</option>
+                        <option disabled>Kansas</option>
+                        <option disabled>Kentucky</option>
+                        <option disabled>Louisiana</option>
+                        <option disabled>Maine</option>
+                        <option disabled>Maryland</option>
+                        <option disabled>Massachusetts</option>
+                        <option disabled>Michigan</option>
+                        <option disabled>Minnesota</option>
+                        <option disabled>Mississippi</option>
+                        <option disabled>Missouri</option>
+                        <option disabled>Montana</option>
+                        <option disabled>Nebraska</option>
+                        <option disabled>Nevada</option>
+                        <option disabled>New Hampshire</option>
+                        <option disabled>New Jersey</option>
+                        <option disabled>New Mexico</option>
+                        <option disabled>New York</option>
+                        <option disabled>North Carolina</option>
+                        <option disabled>North Dakota</option>
+                        <option disabled>Ohia</option>
+                        <option disabled>Oklahoma</option>
+                        <option disabled>Oregon</option>
+                        <option disabled>Pennsylvania</option>
+                        <option disabled>Rhode Island</option>
+                        <option disabled>South Carolina</option>
+                        <option disabled>South Dakota</option>
+                        <option disabled>Tennessee</option>
+                        <option disabled>Texas</option>
+                        <option disabled>Utah</option>
+                        <option disabled>Vermont</option>
+                        <option disabled>Virgina</option>
+                        <option disabled>Washington</option>
+                        <option disabled>West Virgina</option>
+                        <option disabled>Wisconsin</option>
+                        <option disabled>Wyoming</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <label for="zip">ZIP Code:</label>
+                    <input id="zip" type="number" placeholder="ex. 90210" maxlength="5">
+                </div>
+                <br>
+                <button id="submit">Get Predicted Price</button>
+                <div id="output"></div>
+        </div>
+
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
