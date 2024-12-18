@@ -1,4 +1,4 @@
-# House Price Prediction Model - [Main Page](https://thinhle188.github.io/csci4050-final-project/)
+# House Price Prediction Model - [Home Page](https://thinhle188.github.io/csci4050-final-project/)
 
 This project creates a MLP model to predict house prices given the location information
 
