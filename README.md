@@ -1,6 +1,6 @@
 # [House Price Prediction Model](https://thinhle881.github.io/house-price-prediction/)
 
-An MLP model to predict house prices given the location information using PyTorch.
+A PyTorch-based ML model to predict house prices using location information.
 
 ## Team Members:
 
